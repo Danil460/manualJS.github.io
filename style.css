@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color:white;
+    width: 95%;
+    margin:auto;
+    font-size: 1.5em;
+}
+#hed{font-size: 3em;}
+header{
+    text-align: center;
+    color:yellow;
+}
+#osnova{
+    border: 0.5em solid yellow;
+padding: 1em;
+}
+h1{
+    color:yellow;
+}
+#primer{
+    display:flex;
+}
+#primer div{
+    width: 100%;
+}
+#menu button{
+    background-color: black;
+    color:white;
+    border:0.1em solid yellow;
+    font-size: 0.8em;
+    margin:1%;
+}
+#menu button:hover{
+    background-color: rgb(17, 65, 6);
+}
+
+#result{
+    border:0.1em solid yellow;
+}
+#overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-image:url("https://images.wallpaperscraft.ru/image/single/gory_ozero_pejzazh_132141_1920x1080.jpg");
+    color:black;
+
+}
+#showOverlay{
+    background-color: black;
+    color:white;
+    border:0.1em solid yellow;
+    font-size:1.5em;
+    margin:1%;
+
+}
+#footer{text-align: center;
+
+}
+#overlay-content{
+    margin: auto;
+    background-color: white;
+    color:black;
+    padding: 0.5%;
+    border: 0.1em solid red;
+    font-size: 1em;
+    width: 50%;
+}
